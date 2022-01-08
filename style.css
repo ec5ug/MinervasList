@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bkgd {
+  background-image: url("bkgd.png");
+  position: relative;
+  opacity: 0.9;
+  background-attachment: fixed;
+  background-position: fixed;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title {
+  text-align: center
+}
+
+table {
+  border: 2px solid black;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table th, table td {
+  text-align: center;
+  padding: 5px;
+}
+
+table th {
+  background-color: bisque;
+  font-weight: 525;
+}
+
+table th:hover {
+  background-color: #fdfd96;
+  transition: all 1s ease;
+}
+
+.head {
+  font-weight: 800;
+}
+
+.inner {
+  margin: 0 auto;
+  width: 75%;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+#notes {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#group:hover {
+  color:#DA70D6;
+  transition: all 1s ease;
+}
+
+button {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px;
+  border-radius: 8px;
+  box-shadow: 1px 2px black;
+}
+
+#submit {
+  background-color: #04AA6D;
+}
+
+#submit:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+  box-shadow: 1px 2px #888888;
+  transition: all 2s ease;
+}
+
+#clear {
+  background-color: #ff6961;
+}
+
+#clear:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+  box-shadow: 1px 2px #888888;
+  transition: all 2s ease;
+}

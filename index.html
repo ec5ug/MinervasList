@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Database</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+<div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <h1>MINERVA'S LIST</h1>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <h2>How It All Began</h2>
+        <p>When I was in high school, I was so terrified by the cost of college that I applied to 46 scholarships in senior year. The most common piece of advice was to apply to as many scholarships as possible - especially to any that were local - to maximize my chances. This piece of advice came with two caveats. If I were to apply to as many as possible, how do I keep track of them? How do I even find the ones that are local?</p>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <h2>Mission</h2>
+        <p>The purpose of this webpage is to cut through the noise of what’s out there. There are scholarship websites that have lists upon lists you have to dig through to find out what’s right for you. There are also scholarship websites that spam you with so many reminders that you stop reading their emails altogether. This resource is none of those. It’s an organizational tool created for the students, from the high schooler to the postdoctoral researcher.</p>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <h2>Things to Keep in Mind</h2>
+        <p><b>Deadlines:</b> The deadlines listed here are approximate. Selection committees might alter scholarship deadlines every year, so refer to the actual scholarship website for the exact deadline.</p>
+
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <h2>How To Use</h2>
+          <p>The page is automatically programmed to show scholarships that are due in the next two months. You can</p>
+          <ol>
+            <li>toggle the date settings to find scholarships due after a certain day.</li>
+            <li>adjust the age group to find applications that fall with your educational age group.</li>
+            <li>check the kinds of scholarships you are looking for. Some special notes about the categories: </li>
+              <ol>
+                <li><b>Academic</b> scholarships require a transcript and/or have a GPA requirement</li>
+                <li><b>Writing</b> scholarships involve essays that are not centered around academic core curricula or extracurriculars. Scholarships generally involve writing but the kind of writing for these scholarships tend be social commentary, creative writing, etc.</li>
+                <li><b>College-specific</b> scholarships are ones for the University of Virginia or Virginia Tech.</li>
+              </ol>
+            <li>click on the submit button to update the page to your preferences. If you want to redo the process, just click on the clear button.</li>
+            <li>view the descriptions of each scholarship at the bottom of the page. Go ahead and click on the links to begin the application process!</li>
+          </ol>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <label>Scholarships After: </label>
+        <input type = "Date" id = "date">
+        <br>
+        <br>
+
+        <form>
+          <label>Age Group</label>
+          <select id = "age" name = "group">
+            <option value = "all">(select one)</option>
+            <option value = "M">Middle Schooler</option>
+            <option value = "H">High Schooler</option>
+            <option value = "U">Undergraduate</option>
+            <option value = "G">Graduate</option>
+            <option value = "P">PhD</option>
+          </select>
+        </form>
+        <br>
+
+        <label>Type</label>
+        <br>
+        <input type = "checkbox" name = "category" value = "a">Academic</input>
+        <input type = "checkbox" name = "category" value = "s">Service</input>
+        <input type = "checkbox" name = "category" value = "w">Writing</input>
+        <input type = "checkbox" name = "category" value = "v">Video</input>
+        <input type = "checkbox" name = "category" value = "c">College-specific</input>
+        <input type = "checkbox" name = "category" value = "e">STEM</input>
+
+        <br>
+        <br>
+
+        <button id = "submit" onclick = "submitClick()">Submit</button>
+        <button id = "clear" onclick = "clearForm()">Clear</button>
+
+        <br>
+        <br>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <div class = "inner">
+        <table id = "myTable" align = "center">
+        </table>
+        <br>
+      </div>
+    </div>
+
+    <div class = "bkgd">
+      <span style = "background-color:transparent;font-size:25px;color: transparent;">'</span>
+    </div>
+
+    <div>
+      <div id = "notes">
+           
+      </div>
+    </div>
+    <script src="script.js">
+    </script>
+  </body>
+</html>

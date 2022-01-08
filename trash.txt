@@ -1,0 +1,5 @@
+Ironically, this web app was created for myself. As a high school senior, I applied to 46 scholarships but most of the time, I had trouble keeping track of scholarships. I had trouble prioritizing and knowing which scholarships I was eligibile for. I created this site to help me make sense of the mess of scholarships I have.
+
+While this site can be accessed by anyone, Minerva's List will best serve Albemarle High School students. You will find that many of the scholarships listed below are local scholarships. That being said, there are a good deal of state and national scholarships so non Albemarle County and Virginian residents might find this resource useful.
+
+        <p><b>Audience:</b> While this website can be accessed by anyone, Minerva’s List was created to serve Virginian students, especially those within Albemarle County. You will find that many of the scholarships listed below are local scholarships. That being said there are a good deal of national and international scholarships so that anyone not residing in Albemarle County or Virginia might find this resource helpful.</p>
